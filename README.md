@@ -25,7 +25,7 @@ vonage-rti-connector expects a number of command-line arguments in the following
 1. launch the app by executing "./vonage-rti-connector [api-key] [session-id] [token] [websocket-url] [publisher-name]"
 2. This app will connect to a opentok session with given credentials
 3. connect to the websocket url provided
-4. subscribe to the stream whos publisher name matches the one provided on command-line
+4. subscribe to the stream whose publisher name matches the one provided on command-line
 5. send initial JSON payload to the websocket end-point {"uid":"xyz123","sampling_rate":"16000"}
 6. send audio received from the subscriber to the websocket.
 7. received audio from websocket, buffer it and send it in real-time to the opentok session. Name of the publisher is [publisher-name]_rti
