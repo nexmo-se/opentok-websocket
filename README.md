@@ -6,8 +6,8 @@ We use libuwsc for adding websocket support to our application. You can download
 
 1. Please check the opentok linux samples repo for instructions on installing Opentok Linux SDK (https://github.com/opentok/opentok-linux-sdk-samples/tree/main/Basic-Video-Chat)
 2. cd src/build
-3. generate Makefile by executing "CC=clang CXX=clang++ cmake .."
-4. Build the application by executing "make"
+3. generate Makefile by executing ``` CC=clang CXX=clang++ cmake .. ```
+4. Build the application by executing ``` make ```
 5. you should see vonage-rti-connector binary in build folder
 
 ## running the app
