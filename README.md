@@ -1,5 +1,7 @@
 # opentok-websocket
 
+``` Vonage now has Connect API to stream session audio to websocket. You are recommended to use that for a low-code solution. ```
+
 Creates two-way websocket connection between a opentok session and a third-party websocket service.
 
 We use libuwsc for adding websocket support to our application. You can download the source from https://github.com/zhaojh329/libuwsc and build it.
